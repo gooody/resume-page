@@ -4,7 +4,8 @@
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build"
+    "build": "vue-cli-service build",
+    "sync-dist": "git subtree push --prefix dist origin gh-pages"
   },
   "dependencies": {
     "bootstrap": "^5.3.3",

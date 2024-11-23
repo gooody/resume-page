@@ -3,15 +3,15 @@
 
     <div class="lang-selector-wrapper">
         <div class="lang-selector">
-            <router-link to="/ua" :key="1" class="lang-selector-item" title="Українська">
+            <router-link to="/?lang=ua" :key="1" class="lang-selector-item" title="Українська">
                 <div class="flag flag-ua"></div>
                 <div class="lang-name">Українська</div>
             </router-link>
-            <RouterLink to="/de" :key="2" class="lang-selector-item " title="Deutsch">
+            <RouterLink to="/?lang=de" :key="2" class="lang-selector-item " title="Deutsch">
                 <div class="flag flag-de"></div>
                 <div class="lang-name">Deutsch</div>
             </RouterLink>
-            <RouterLink to="/en" :key="3" class="lang-selector-item " title="English">
+            <RouterLink to="/?lang=en" :key="3" class="lang-selector-item " title="English">
                 <div class="flag flag-en"></div>
                 <div class="lang-name">English</div>
             </RouterLink>

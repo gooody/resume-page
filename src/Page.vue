@@ -72,8 +72,12 @@ export default class App extends Vue {
       this.userData = null;
       
       if (route ) {
-        if (route && route.params && route.params.lang && langContents[route.params.lang]) {
-          localStorage.setItem(LOCALSTORAGE_ITEM_LANG, route.params.lang);       
+
+        console.log(route);
+
+
+        if (route && route.query && route.query.lang && langContents[route.query.lang]) {
+          localStorage.setItem(LOCALSTORAGE_ITEM_LANG, route.query.lang);       
         }   
         
         if ('/' !== route.path) {
