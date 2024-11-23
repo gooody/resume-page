@@ -5,7 +5,8 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "sync-dist": "git subtree push --prefix dist origin gh-pages"
+    "create-sync-dist": "git subtree push --prefix dist origin gh-pages",
+    "update-sync-dist":"git push origin `git subtree split --prefix dist main`:gh-pages --force"
   },
   "dependencies": {
     "bootstrap": "^5.3.3",
