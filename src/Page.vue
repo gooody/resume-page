@@ -19,6 +19,10 @@
         <div class="fixed-menu no-print">
           <button @click="printPage()" class="btn-bg-image btn-image-print"></button>
         </div>
+
+    
+        <Background typeClass="right-side" />
+        <div class="bg"></div>
     </div>
 </div>
 <!-- Background / -->
@@ -72,15 +76,11 @@ export default class App extends Vue {
       this.userData = null;
       
       if (route ) {
-
-        console.log(route);
-
-
         if (route && route.query && route.query.lang && langContents[route.query.lang]) {
           localStorage.setItem(LOCALSTORAGE_ITEM_LANG, route.query.lang);       
         }   
         
-        if ('/' !== route.path) {
+        if (route.query && Object.keys(route.query).length) {
           await router.push('/');
           //window.location.href = '/';
         }  

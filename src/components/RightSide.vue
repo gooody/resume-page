@@ -40,12 +40,6 @@
             <input type="text" class="formInput" id='tn_name' name="tn_name" autocomplete="off" spellcheck="false" />
             <div class='help-error'><i class="icon icon-warning"></i> Name field is required!</div-->   
         </div> 
-        
-
-
-    
-        <Background typeClass="right-side" />
-        <div class="bg"></div>
     </div>
 
 </div>
@@ -57,11 +51,11 @@
 
 
 import { Options, Vue } from 'vue-class-component';
-import Background from './Background.vue';
+//import Background from './Background.vue';
 
 @Options({
   components: {
-    Background,
+    //Background,
   },
   props:['section'],
 })

@@ -1,5 +1,4 @@
 <template>
-
     <div :class="'bg-'+typeClass" class="animated-bg  ">
         <svg :viewBox="getViewBox()" xmlns="http://www.w3.org/2000/svg">
             <g class="anim-bg-hexagon" :transform="getHexagon0Transform()" >
@@ -98,7 +97,7 @@
 
         </svg>
     </div>
-    
+
 </template>
     
 <script lang="ts">
@@ -226,34 +225,34 @@ import { Options, Vue } from 'vue-class-component';
                 fill: #00000001;
             }
             .anim-bg-hexagon3 {
-                stroke: #00000005;
+                stroke: #00000013;
                 stroke-width: 5;
                 fill: #00000001;
             }
             .anim-bg-hexagon4 {
-                stroke: #00000006;
+                stroke: #00000011;
                 stroke-width: 14;
                 fill: #00000001;
             }
             //.anim-bg-hexagon1
             // 
             .anim-bg-hexagon5 {
-                stroke: #00000007;
+                stroke: #00000013;
                 stroke-width: 13;
                 fill: #00000001;
             }
             .anim-bg-hexagon6 {
-                stroke: #00000008;
+                stroke: #00000011;
                 stroke-width: 12;
                 fill: #00000001;
             }
             .anim-bg-hexagon7 {
-                stroke: #00000009;
+                stroke: #00000013;
                 stroke-width: 15;
                 fill: #00000001;
             }
             .anim-bg-hexagon8 {
-                stroke: #00000010;
+                stroke: #00000012;
                 stroke-width: 11;
                 fill: #00000001;
             }
@@ -268,57 +267,57 @@ import { Options, Vue } from 'vue-class-component';
                 fill: #00000001;
             }
             .anim-bg-hexagon11 {
-                stroke: #00000009;
+                stroke: #00000015;
                 stroke-width: 16;
                 fill: #00000001;
             }
             .anim-bg-hexagon12 {
-                stroke: #00000008;
+                stroke: #00000013;
                 stroke-width: 17;
                 fill: #00000001;
             }
             .anim-bg-hexagon13 {
-                stroke: #00000007;
+                stroke: #00000012;
                 stroke-width: 18;
                 fill: #00000001;
             }
             .anim-bg-hexagon14 {
-                stroke: #00000006;
+                stroke: #00000013;
                 stroke-width: 19;
                 fill: #00000001;
             }
             .anim-bg-hexagon15 {
-                stroke: #00000005;
+                stroke: #00000014;
                 stroke-width: 20;
                 fill: #00000001;
             }
             .anim-bg-hexagon16 {
-                stroke: #00000004;
+                stroke: #00000015;
                 stroke-width: 23;
                 fill: #00000001;
             }
             .anim-bg-hexagon17 {
-                stroke: #00000005;
+                stroke: #00000016;
                 stroke-width: 22;
                 fill: #00000001;
             }
             .anim-bg-hexagon18 {
-                stroke: #00000006;
+                stroke: #00000010;
                 stroke-width: 21;
                 fill: #00000001;
             }
             .anim-bg-hexagon19 {
-                stroke: #00000007;
+                stroke: #00000011;
                 stroke-width: 15;
                 fill: #00000001;
             }
             .anim-bg-hexagon20 {
-                stroke: #00000008;
+                stroke: #00000012;
                 stroke-width: 10;
                 fill: #00000001;
             }
             .anim-bg-hexagon21 {
-                stroke: #00000009;
+                stroke: #00000013;
                 stroke-width: 11;
                 fill: #00000001;
             }
