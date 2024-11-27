@@ -114,11 +114,13 @@ body {
             }
             .cv-description-container {
                 .cv-description {
-                    .col-md-4.cv-description-label {
-                        width: 40%!important;
+                    .cv-description-label {
+                        width: 35%!important;
+                        font-size: 12px;
                     }
-                    .col-md-8.cv-description-text {
-                        width: 60% !important;
+                    .cv-description-text, .cv-description-text a {
+                        width: 65% !important;
+                        font-size: 12px;
                     }
                 }
             }
