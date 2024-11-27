@@ -53,6 +53,10 @@
             <div class="col-md-4 cv-description-label">{{ description.label }}</div>
             <div class="col-md-8 cv-description-text">{{ description.text }}</div>
         </div>
+        <div class="cv-description row">
+            <div class="col-md-4 cv-description-label">Site:</div>
+            <div class="col-md-8 cv-description-text"><a :href="site.url">{{ site.name }}</a></div>
+        </div>
     </div>
     <Background typeClass="left-side" />
 
@@ -70,6 +74,14 @@ import Background from './Background.vue';
     Background,
   },
   props:['userData'],
+  computed:{
+    site() {
+        return {
+            url:window.location.origin,
+            name:window.location.host,
+        }
+    }
+  }
 })
 
 export default class LeftSide extends Vue {
