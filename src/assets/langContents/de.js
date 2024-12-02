@@ -120,12 +120,12 @@ export default {
               {
                 type:"list",
                 title0:"Januar 2012 – November 2014",
-                title1:"Onyx Enterprises (USA), Projekt – CARiD.com, Back-end Programmierer (php)",
+                title1:"Onyx Enterprises (USA), Projekt – CARiD.com, Back-end php Programmierer (E-Commerce)",
               },
               {
                 type:"list",
                 title0:"Juni 2010 – Dezember 2011",
-                title1:"Onyx Enterprises (USA), Projekt – CARiD.com, Massenprodukt-Entwickler",
+                title1:"Onyx Enterprises (USA), Projekt – CARiD.com, Massenprodukt-Entwickler (E-Commerce)",
               },
               {
                 type:"list",
