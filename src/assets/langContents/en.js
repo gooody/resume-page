@@ -123,12 +123,12 @@ export default {
               {
                 type:"list",
                 title0:"January 2012 – November 2014",
-                title1:"Onyx Enterprises (USA), Project – CARiD.com, Back-end Programmer (php)",
+                title1:"Onyx Enterprises (USA), Project – CARiD.com, Back-end php Programmer (e-commerce)",
               },
               {
                 type:"list",
                 title0:"June 2010 – December 2011",
-                title1:"Onyx Enterprises (USA), Project – CARiD.com, Mass Product Developer",
+                title1:"Onyx Enterprises (USA), Project – CARiD.com, Mass Product Developer (e-commerce)",
               },
               {
                 type:"list",
@@ -310,7 +310,7 @@ export default {
               {
                 type:"list",
                 title0:"January 2012 – November 2014",
-                title1:"Onyx Enterprises (USA), Project – CARiD.com, Back-end Programmer (php)",
+                title1:"Onyx Enterprises (USA), Project – CARiD.com, Back-end php Programmer (e-commerce)",
                 list:[
                     'Developing and maintaining a module for mass import and update of products from spreadsheets',
                     'Developing and maintaining a module for mass generation and export of products to eBay, Amazon, and Google Shopping',
@@ -321,7 +321,7 @@ export default {
               {
                 type:"list",
                 title0:"June 2010 – December 2011",
-                title1:"Onyx Enterprises (USA), Project – CARiD.com, Mass Product Developer",
+                title1:"Onyx Enterprises (USA), Project – CARiD.com, Mass Product Developer (e-commerce)",
                 list:[
                     'Mass creation and maintenance of products in the online store (Excel + PHP + MySQL)',
                     'Automating product creation and updates',

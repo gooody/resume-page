@@ -120,12 +120,12 @@ export default {
               {
                 type:"list",
                 title0:"Січень 2012 – Листопад 2014",
-                title1:"Onyx Enterprises (США), Проект – CARiD.com, Back-end програміст (php)",
+                title1:"Onyx Enterprises (США), Проект – CARiD.com, Back-end php програміст (Електронна комерція)",
               },
               {
                 type:"list",
                 title0:"Червень 2010 – Грудень 2011",
-                title1:"Onyx Enterprises (США), Проект – CARiD.com, Розробник масового продукту",
+                title1:"Onyx Enterprises (США), Проект – CARiD.com, імпорт продукт (Електронна комерція)",
               },
               {
                 type:"list",
@@ -307,7 +307,7 @@ export default {
               {
                 type:"list",
                 title0:"Січень 2012 – Листопад 2014",
-                title1:"Onyx Enterprises (США), Проект – CARiD.com, Back-end програміст (php)",
+                title1:"Onyx Enterprises (США), Проект – CARiD.com, Back-end php програміст (Електронна комерція)",
                 list:[
                     'Розробка і підтримка модуля для масового імпорту та оновлення продуктів з таблиць',
                     'Розробка і підтримка модуля для масової генерації та експорту товарів на eBay, Amazon, Google Shopping',
@@ -319,7 +319,7 @@ export default {
               {
                 type:"list",
                 title0:"Червень 2010 – Грудень 2011",
-                title1:"Onyx Enterprises (США), Проект – CARiD.com, Розробник масового продукту",
+                title1:"Onyx Enterprises (США), Проект – CARiD.com, імпорт продукт (Електронна комерція)",
                 list:[
                     'Масове створення товарів для інтернет-магазину (Excel + PHP + MySQL)',
                     'Автоматизація створення та оновлення товарів',
