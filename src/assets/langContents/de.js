@@ -100,7 +100,7 @@ export default {
               {
                 type:"list",
                 title0:"Juni 2010 – Februar 2022",
-                title1:"Privater Unternehmer Mykola Kravchenko, Entwickler & Freelancer (php / node.js / js)",
+                title1:"Selbstständig, Mykola Kravchenko, Entwickler & Freelancer (php / node.js / js)",
               },
               {
                 type:"list",
@@ -257,7 +257,7 @@ export default {
               {
                 type:"list",
                 title0:"Juni 2010 – Februar 2022",
-                title1:"Privater Unternehmer Mykola Kravchenko, Entwickler & Freelancer (php / node.js / js)",
+                title1:"Selbstständig, Mykola Kravchenko, Entwickler & Freelancer (php / node.js / js)",
                 list:[
                   'Entwicklung und Unterstützung von Websites und Diensten (Laravel)',
                   'Entwicklung und Pflege eines Moduls zur Abrufung statistischer Daten (Laravel + NodeJs)',

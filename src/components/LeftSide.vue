@@ -77,9 +77,13 @@ import Background from './Background.vue';
   computed:{
     site() {
         return {
+            url:'https://my-resume.gooody.pp.ua/',
+            name:'my-resume.gooody.pp.ua',
+        };
+        return {
             url:window.location.origin,
             name:window.location.host,
-        }
+        };
     }
   }
 })
