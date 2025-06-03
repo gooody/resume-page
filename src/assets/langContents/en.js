@@ -221,7 +221,7 @@ export default {
               {
                 type:"list-col",
                 title0:"Languages:",
-                title1:"Ukrainian (native) <br />russian (fluent)<br />German (basic) <br />English (basic)",
+                title1:"Ukrainian (native) <br />russian (fluent)<br />German (B1) <br />English (A2)",
               },
             ]
           },  
