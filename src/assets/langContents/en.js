@@ -377,7 +377,7 @@ export default {
             subBlocks: [
               {
                 type:"text",
-                title:"Twist, November 2024",
+                title:"Twist, June 2025",
               },
             ]
           },
