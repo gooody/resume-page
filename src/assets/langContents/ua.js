@@ -16,7 +16,8 @@ export default {
       {
         //label: "Current Address:",
         label: "Адреса:",
-        text: "Zitterdell 10, 49767 Twist, Німеччина",
+        //text: "Zitterdell 10, 49767 Twist, Німеччина",
+        text: "49767 Twist, Німеччина",
       },
       {
         label: "E-mail:",
@@ -24,11 +25,11 @@ export default {
       },
       {
         label: "Номер телефону:",
-        text: "+38-09-555-133-55",
+        text: "+380955513355",
       },
       {
         label: "Робота:",
-        text: "Тільки віддалена",
+        text: "Бажано віддалена",
       },
     ],
     contakts:[
@@ -37,16 +38,16 @@ export default {
         href:"whatsapp://send?abid=+380955513355&text=Hello,%2C%20Mykola",
         typeLogoClassName:"contakt-image-whatsapp",
       },
-      {
-        title:"Telegram",
-        href:"https://t.me/gooody29",
-        typeLogoClassName:"contakt-image-telegram",
-      },
-      {
-        title:"Viber",
-        href:"viber://chat?number=+380955513355",
-        typeLogoClassName:"contakt-image-viber",
-      },
+      //{
+      //  title:"Telegram",
+      //  href:"https://t.me/gooody29",
+      //  typeLogoClassName:"contakt-image-telegram",
+      //},
+      //{
+      //  title:"Viber",
+      //  href:"viber://chat?number=+380955513355",
+      //  typeLogoClassName:"contakt-image-viber",
+      //},
       {
         title:"E-mail",
         href:"mailto:gooody29@gmail.com",
@@ -58,13 +59,6 @@ export default {
         typeLogoClassName:"contakt-image-linkedin",
       },
     ],
-
-
-
-
-
-
-
     sections:[
       {
         header:"БІОГРАФІЯ",
@@ -85,7 +79,8 @@ export default {
               {
                 type:"list-col",
                 title0:"Сімейний стан:",
-                title1:"одружений, троє дітей (5, 7 та 13 років)",
+                //title1:"одружений, троє дітей (5, 7 та 13 років)",
+                title1:"одружений",
               },              
               {
                 type:"list-col",

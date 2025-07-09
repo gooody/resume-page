@@ -16,7 +16,8 @@ export default {
       {
         //label: "Current Address:",
         label: "Adresse:",
-        text: "Zitterdell 10, 49767 Twist, Deutschland",
+        //text: "Zitterdell 10, 49767 Twist, Deutschland",
+        text: "49767 Twist, Deutschland",
       },
       {
         label: "E-mail:",
@@ -24,11 +25,11 @@ export default {
       },
       {
         label: "Telefonnummer:",
-        text: "+38-09-555-133-55",
+        text: "+380955513355",
       },
       {
         label: "Arbeitsort:",
-        text: "Nur Home-Office",
+        text: "Vorzugsweise ein Homeoffice",
       },
     ],
     contakts:[
@@ -37,16 +38,16 @@ export default {
         href:"whatsapp://send?abid=+380955513355&text=Hello,%2C%20Mykola",
         typeLogoClassName:"contakt-image-whatsapp",
       },
-      {
-        title:"Telegram",
-        href:"https://t.me/gooody29",
-        typeLogoClassName:"contakt-image-telegram",
-      },
-      {
-        title:"Viber",
-        href:"viber://chat?number=+380955513355",
-        typeLogoClassName:"contakt-image-viber",
-      },
+      //{
+      //  title:"Telegram",
+      //  href:"https://t.me/gooody29",
+      //  typeLogoClassName:"contakt-image-telegram",
+      //},
+      //{
+      //  title:"Viber",
+      //  href:"viber://chat?number=+380955513355",
+      //  typeLogoClassName:"contakt-image-viber",
+      //},
       {
         title:"E-mail",
         href:"mailto:gooody29@gmail.com",
@@ -84,7 +85,8 @@ export default {
               {
                 type:"list-col",
                 title0:"Familienstand:",
-                title1:"Verheiratet, drei Kinder (5, 7 und 13 Jahre)",
+                title1:"Verheiratet",
+                //title1:"Verheiratet, drei Kinder (5, 7 und 13 Jahre)",
               },
               
               {
